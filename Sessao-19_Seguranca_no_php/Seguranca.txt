@@ -1,0 +1,78 @@
+
+--------------------------------------------Comand Injection--------------------------------------------
+
+# Command Injection é um ataque hacker onde o invasor pode injetar comandos
+dentro de uma comunicação entre usuário e servidor.
+
+# Vamos supor que o wordpress faça uma atualização, o usuário aceita e então
+começa a ser feito uma criação de pastas e diversos arquivos internamente,
+executa comandos etc. 
+
+# Se utilizamos a linguagem PHP com funções que manipula o sistema opera-
+cional, então estaríamos sujeitos a um ataque de injenção.
+
+# O hacker pode criar uma ferramenta, na qual pode se intrometer nesses
+arquivos conectados entre o usuário e a rede do nosso sistema.
+
+--------------------------------------------SQL Injection--------------------------------------------
+
+# A diferença entre este e o tópico acima, é a exploração do invasor sobre
+seus dados no banco.
+
+# SQL Injection é um desenvolvedor descuidado, que se utiliza de práticas 
+de programação não tão amigáveis e assim libera mais vunerabilidade para um 
+ataque hacker. 
+
+# SQL Injection é quando um invasor/usuário descobre que você está mandando
+dados para dentro do banco, o mesmo injeta comandos para que sejam executados
+no seu banco SQL.
+
+# Normalmente quando vaza senha e logins de pessoas na internet, é por conta de um ataque 
+SQL Injection onde o invasor acha esta vunerabilidade no sistema x.
+
+# Temos o ataque pelo método GET, onde podemos cancelar um WHERE colocando
+um OR e assim operarmos trazendo dados ocultos do sistema. Normalmente se
+deve tratar este tipo de informações.
+
+--------------------------------------------Permissões de pastas--------------------------------------------
+
+#   O segundo parâmetro do mkdir é opcional, ele trata o nível de 
+    permissão da pasta.
+    Permissão nível 0 = Permissão zero/nula.
+    Permissão nível 1 = Permissão de executar algo.
+    Permissão nível 2 = Permissão de gravar algo.
+    Permissão nível 3 = Permissão 1 e 2 unidas.
+    Permissão nível 4 = Permissão apenas para leitura.
+    Permissão nível 5 = Leitura e execução.
+    Permissão nível 6 = Leitura e gravação.
+    Permissão nível 7 = Permissão total.
+
+#   Utilizamos 3 digitos de números no parâmetro. 
+    Cada algarismo é o número de acesso para um tipo de usuário diferente.
+    supondo que temos os números 775. 
+    O primeiro número (7) é permissão do administrador.
+    O segundo número (7) é permissão de um grupo especifíco.
+    O terceiro número (5) é permissão do usuário qualquer que acesse o sistema.
+
+--------------------------------------------usando o reCaptcha--------------------------------------------
+
+# O google possui um site sobre o reCaptcha onde podemos implantar de maneira 
+muito fácil este tipo de sistema
+
+--------------------------------------------Cross site scripting XSS--------------------------------------------
+
+# Um ataque XSS parece o ataque por comando, neste caso especifíco é quando
+o invasor coloca comandos HTML dentro das entradas do sistema. Em sistema
+de buscas, formulários etc. Este ataque pode até mesmo ser feito por Java-
+script.
+ 
+# Existe dois tipos de ataque XSS. Um temporário e um Fixo.
+
+--------------------------------------------Defense in depth--------------------------------------------
+
+# Defesa em cámadas são auxílios para o desenvolvedor se defender de ataques.
+Caso um usuário passe por um bloqueio vêm mais um logo em seguida
+
+--------------------------------------------SSL e PHP Session Hijacking--------------------------------------------
+
+# Session Hijacking é um ataque a sessões

@@ -1,0 +1,18 @@
+<?php 
+
+/*
+Boleto sem registro é um boleto que é gerado sem o banco
+saber da existência dele, o mesmo só é notado pelas agências quando pago
+*/
+
+/*
+Boleto com registro é quando foi informado ao banco sua criação e informado
+sua data de vescimento determinada. O banco recebe um arquivo de remessa
+*/
+
+/*
+Dica importante: Caso queira gerar boletos registrados procure por arquivos
+de remessa do banco X ou Y para vê suas integraçoes
+*/
+
+?>

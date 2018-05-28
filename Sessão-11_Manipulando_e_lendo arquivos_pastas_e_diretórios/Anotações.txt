@@ -1,0 +1,11 @@
+# PHP tem um recurso, que facilita nosso trabalho
+
+# Gerenciamento de arquivos é podermos manipular, criar
+e ler arquivos, pastas, diretórios e assim por diante. Até 
+mesmo arquivos físicos, como imagens, textos etc.
+
+# Assim podemos fazer estes gerenciamentos no próprio servidor
+de onde estará nossos projetos em PHP. Utilizando o servidor
+como um repositório
+
+# Você automatiza de maneira que venha a faciltiar sua vida

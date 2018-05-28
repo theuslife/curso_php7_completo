@@ -1,0 +1,19 @@
+# RainTPL ou especificamente o Rain Template auxília na separação do código
+back-and da nossa aplicação com PHP. Fazendo a separação do códido fontes
+de ambos e conectando eles conforme necessário.
+
+# Criamos um modelo, e quando precisamos de um Layout chamamos este modelo
+trocando alguns de seus valores
+
+# É considerado uma boa prática de programação fazer esta separação, além de
+comum entre a galera da comunidade
+
+# Antigamente os desenvolvedores programavam o PHP direto no código HTML
+
+# Com a ideia de template, você tem o código php e o layout html separados.
+
+# Usando uma ferramenta para template como o RainTPL, ele pega o template
+e o código php e junta os dois fazendo no final deste serviço uma pasta 
+chamada Cache onde ficará essa junção. Assim que for solicitado estes 
+arquivos para outros fins, o RainTPL pega diretamente da pasta Cache. 
+Imagine como se fosse uma versão "Compilada ou executável" do projeto.
